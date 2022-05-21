@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="error_input_name">error input name</string>
+    <string name="error_input_count">error input count</string>
+</resources>
