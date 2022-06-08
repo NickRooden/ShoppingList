@@ -10,7 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.myrood.shoppinglist.R
 import com.myrood.shoppinglist.domain.ShopItem
 
-class ShopListAdapter : ListAdapter<ShopItem, ShopListAdapter.ItemViewHolder>(ShopItemDiffCallBack()){
+class ShopListAdapter :
+    ListAdapter<ShopItem, ShopListAdapter.ItemViewHolder>(ShopItemDiffCallBack()){
 
     companion object{
         const val ENABLE = 1
